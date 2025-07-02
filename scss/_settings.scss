@@ -18,7 +18,7 @@ $purple-500: #733FC8;
 %text-preset-1 {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 120%;
     letter-spacing: 0;
 }
@@ -26,23 +26,34 @@ $purple-500: #733FC8;
 %text-preset-2 {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 0.8125rem;
     line-height: 110%;
     letter-spacing: 0;
 }
 
 %text-preset-3 {
     font-family: "Barlow Semi Condensed", sans-serif;
-    font-weight: 500;
-    font-size: 13px;
+    font-weight: 400;
+    font-size: 0.8125rem;
     line-height: 140%;
     letter-spacing: 0;
 }
 
 %text-preset-4 {
     font-family: "Barlow Semi Condensed", sans-serif;
-    font-weight: 500;
-    font-size: 11px;
+    font-weight: 400;
+    font-size: 0.6875rem;
     line-height: 110%;
     letter-spacing: 0;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
