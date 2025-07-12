@@ -59,6 +59,12 @@ body {
     height: 1353px;
   }
 }
+@media (max-width: 720px) {
+  body {
+    height: 2450px;
+    justify-content: flex-start;
+  }
+}
 
 .content-testimonials {
   width: 1114px;
@@ -77,6 +83,14 @@ body {
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 }
+@media (max-width: 720px) {
+  .content-testimonials {
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    margin: 56px 0 56px 0;
+  }
+}
 
 .card {
   border-radius: 8px;
@@ -88,6 +102,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: -24px;
+}
+@media (max-width: 720px) {
+  .card__header {
+    margin-bottom: 0;
+  }
 }
 .card__identity {
   height: 30px;
@@ -102,6 +121,11 @@ body {
 .card__background {
   margin-top: -32px;
   margin-right: 32px;
+}
+@media (max-width: 720px) {
+  .card__background {
+    display: none;
+  }
 }
 .card__picture {
   height: 100%;

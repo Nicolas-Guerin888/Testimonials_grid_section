@@ -9,6 +9,10 @@ body {
 	@media (max-width: 1180px) {
 		height: 1353px;
 	}
+	@media (max-width: 720px) {
+		height: 2450px;
+		justify-content: flex-start;
+	}
 }
 
 .content-testimonials {
@@ -25,6 +29,12 @@ body {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr;
 	}
+	@media (max-width: 720px) {
+		display: flex;
+		flex-direction: column;
+		width: 82%;
+		margin: 56px 0 56px 0;
+	}
 }
 
 @mixin common-card-styles {
@@ -37,6 +47,9 @@ body {
 		flex-direction: row;
 		justify-content: space-between;
 		margin-bottom: -24px;
+		@media (max-width: 720px) {
+			margin-bottom: 0;
+		}
 	}
 	&__identity {
 		height: 30px;
@@ -51,6 +64,9 @@ body {
 	&__background {
 		margin-top: -32px;
 		margin-right: 32px;
+		@media (max-width: 720px) {
+			display: none;
+		}
 	}
 	&__picture {
 		height: 100%;
